@@ -50,6 +50,7 @@
     <h1>I'm <span>Ripunjay Deka</span></h1>
     <p>This is my simple portfolio Website designed by me.
     </p>
+    <h3 class="post">I Am  <span class="typing-text"> a front end developer</span></h3>
     <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
 
 </section>
@@ -241,6 +242,24 @@
     </footer>
 </section>								
 <!-- contact section ends -->
+
+<!-- type.js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<script>
+     var type = new Typed('.typing-text',{
+        strings : [ 'a web designer', 'a front end developer', 'a graphic designer', 'an Astronomical photographer' ],
+        typeSpeed: 120,
+        loop:true
+    });
+
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+</script>
+	
 	
 
 <!-- scroll top button  -->
