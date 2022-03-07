@@ -463,7 +463,7 @@ header .navbar ul li a:hover{
     left:50%; bottom:5rem;
     transform: translateX(-50%);
     display: flex;
-    left:2;
+    left:6;
     padding:1rem;
     border-radius: 1rem;
     background: rgba(255,255,255,.1);
@@ -476,7 +476,7 @@ header .navbar ul li a:hover{
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
     padding:1rem 1rem;
     margin:1rem;
-    left:2;
+    left:6;
     color:#fff;
     font-size: 2rem;
     border-radius: 1rem;
