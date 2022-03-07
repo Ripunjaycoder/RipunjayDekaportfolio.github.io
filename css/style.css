@@ -48,7 +48,7 @@ section{
     padding: 1rem;
 }
 .btn{
-    padding: 7rem 3rem;
+    padding: 6rem 3rem;
     background-color: #333;
     color: #fff;
     cursor: pointer;
@@ -140,6 +140,24 @@ header .navbar ul li a:hover{
     z-index: 1000;
     display: none;
 }
+
+.home .image{
+    width: 200px;
+    height: 200px;
+
+} 
+
+#top .image {
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    margin: 0;
+    
+}
+
+    #top .image img {
+        border-radius: 300%;
+    }
 
 
 .home{
@@ -454,7 +472,7 @@ header .navbar ul li a:hover{
 .contact .share a{
     background: rgba(255,255,255,.2);
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
-    padding:1rem 2rem;
+    padding:1rem 1rem;
     margin:1rem;
     color:#fff;
     font-size: 2rem;
@@ -593,3 +611,4 @@ header .navbar ul li a:hover{
                 background-color: transparent !important;
             }
 }            
+
