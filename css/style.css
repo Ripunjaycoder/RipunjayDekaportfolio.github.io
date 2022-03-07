@@ -222,6 +222,83 @@ header .navbar ul li a:hover{
     font-size: 2.5em;
 }
 
+.TechnicalSkill .counter h3{
+    font-size: 2.5rem;
+    color:#181818;
+}
+
+.TechnicalSkill .counter h3 span{
+    color:#2E2E2E;
+}
+
+.TechnicalSkill .counter p{
+    font-size: 2rem;
+    color:#181818;
+    padding:.5rem 0;
+}
+
+.TechnicalSkill .skills{
+    padding:1rem 0;
+}
+
+.TechnicalSkill .skills .progress{
+    margin:1.5rem 0;
+    padding:1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    background: rgba(255, 255, 255, 0.068);
+    border-radius: 1rem;
+}
+
+.TechnicalSkill .skills .progress h3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color:#eee;
+}
+
+.TechnicalSkill .skills .progress .bar{
+    position: relative;
+    width: 100%;
+    height:.2rem;
+    margin:1rem 0;
+    background: #242424;;
+}
+
+.TechnicalSkill .skills .progress .bar span{
+    position: absolute;
+    top:0; left: 0;
+    height:100%;
+    width:100%;
+    background:#eee;
+}
+
+.TechnicalSkill .skills .progress:nth-child(1) .bar span{
+    width:95%;
+}
+
+.TechnicalSkill .skills .progress:nth-child(2) .bar span{
+    width:75%;
+}
+
+.TechnicalSkill .skills .progress:nth-child(3) .bar span{
+    width:65%;
+}
+
+.TechnicalSkill .skills .progress:nth-child(4) .bar span{
+    width:85%;
+}
+.TechnicalSkill .skills .progress:nth-child(5) .bar span{
+    width:60%;
+}
+.TechnicalSkill .skills .progress:nth-child(6) .bar span{
+    width:75%;
+}
+.TechnicalSkill .skills .progress:nth-child(7) .bar span{
+    width:50%;
+}
+
+
+
 
 
 
