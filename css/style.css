@@ -440,9 +440,29 @@ header .navbar ul li a:hover{
 .contact .row .content .title{
     text-transform: uppercase;
     color:#fff;
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 2rem;
 }
+
+.contact .row .content .info p{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h2{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+
 
 .contact .row .content .info h3{
     display: flex;
